@@ -1,0 +1,882 @@
+/* COMMON CSS START */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+.container{
+    width: 1280px;
+    margin: 0 auto;
+}
+/* COMMON CSS END */
+
+
+
+/* NAVBAR CSS START */
+#navbar{
+    padding: 21px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+.logo{
+    width: 30%;
+}
+#navbar .nav-items{
+    width: 70%;
+}
+#navbar .navbar-wrapper{
+    display: flex;
+}
+#navbar .nav-items ul{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+#navbar .nav-items ul li a{
+    font-family: "Poppins", sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    color: #fff;
+    margin-left: 52px;
+}
+#navbar .nav-items ul li:first-child a{
+    font-family: "Poppins", sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    color: #FEBA12;
+    margin-left: 52px;
+}
+#navbar .nav-items ul li:last-child a{
+    font-family: "Poppins", sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    color: #000000;
+    margin-left: 52px;
+    width: 130px;
+    height: 32px;
+    background-color: #FEBA12;
+    border-radius: 5px;
+    padding: 7px 25px;
+}
+#navbar .nav-items ul li a:hover{
+    color: #FEBA12;
+}
+/* NAVBAR CSS END */
+
+
+/* BANNER PART START */
+#banner{
+    background: url(../images/banner.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 210px;
+    padding-bottom: 384px;
+}
+#banner .banner-wrapper{
+    text-align: center;
+}
+#banner .banner-wrapper h1{
+    font-family: "Poppins", sans-serif;
+    font-size: 65px;
+    font-weight: 600;
+    color: #ffffff;
+}
+#banner .banner-wrapper h1 .one{
+    font-family: "Poppins", sans-serif;
+    font-size: 65px;
+    font-weight: 600;
+    color: #FEBA12;
+}
+#banner .banner-wrapper p .two{
+    font-family: "Poppins", sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    color: #ffffff;
+}
+#banner .banner-wrapper .form{
+    position: absolute;
+}
+#banner .banner-wrapper .white-form{
+    background-color: #ffffff;
+    width: 1280px;
+    height: 550px;
+    display: flex;
+    border-radius: 14px;
+    margin-top: 131px;
+    box-shadow: 0px 20px 19px #d7d7d7;
+}
+#banner .banner-wrapper .white-form .yellow-part{
+    background-color: #FEBA12;
+    border-top-left-radius: 14px;
+    border-bottom-left-radius: 14px;
+    width: 411px;
+    height: 550px;
+    padding: 172px 113px;
+    width: 35%;
+}
+#banner .banner-wrapper .yellow-part .online{
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    color: #fff;
+    margin-top: 0;
+    padding: 0;
+}
+#banner .banner-wrapper .yellow-part .save{
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 50px;
+    color: #fff;
+    display: block;
+    margin: -12px;
+}
+#banner .banner-wrapper .yellow-part .ten-perc{
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 100px;
+    color: #000000;
+    display: block;
+    margin: -31px;
+}
+#banner .banner-wrapper .yellow-part .ride{
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    color: #000000;
+    display: block;
+}
+#banner .banner-wrapper .white-form .form-first{
+    text-align: left;
+    color: #747474;
+    margin-top: 54px;
+    margin-bottom: 150px;
+    margin-left: 56px;
+}
+#banner .banner-wrapper .white-form .form-first .box1{
+    width: 333px;
+    height: 65px;
+    border-radius: 10px;
+    font-size: 150%;
+    color: #747474;
+}
+#banner .banner-wrapper .white-form .form-first .box2{
+    line-height: 50px;
+    font-size: 20px;
+}
+#banner .banner-wrapper .white-form .form-first .payment{
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    width: 329px;
+    display: block;
+    margin: 80px 0;
+}
+
+#banner .banner-wrapper .white-form .form-second{
+    text-align: left;
+    color: #747474;
+    margin-top: 54px;
+    margin-bottom: 150px;
+    margin-left: 56px;
+}
+#banner .banner-wrapper .white-form .form-second .box3{
+    width: 333px;
+    height: 65px;
+    border-radius: 10px;
+    font-size: 150%;
+    color: #747474;
+}
+#banner .banner-wrapper .white-form .form-second .box4{
+    line-height: 50px;
+}
+#banner .banner-wrapper .white-form .form-second .quote{
+    width: 160px;
+    height: 40px;
+    padding: 13px 34px;
+    background-color: #FEBA12;
+    color: #000;
+    font-size: 14px;
+    border-radius: 5px;
+    margin: 80px 0;
+}
+/* BANNER PART END */
+
+
+
+/* <!-- 2ND PART DESIGN START --> */
+#second-part .second-wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+#second-part .second-wrapper .standard-cab{
+    border: 2px solid #747474;
+    width: 411px;
+    height: 485px;
+    margin-top: 381px;
+    display: block;
+    border-radius: 10px;
+    padding: 44px 75px;
+}
+#second-part .second-wrapper .standard-cab img{
+    padding-top: 6px;
+    padding-left: 80px;
+}
+#second-part .second-wrapper p{
+    text-align: center;
+}
+#second-part .second-wrapper .cab{
+    font-size: 30px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    line-height: 21px;
+    margin-top: 31px;
+}
+#second-part .second-wrapper .passengers{
+    font-size: 14px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    line-height: 21px;
+    display: block;
+    margin-top: 10px;
+    color: #BCBCBC;
+}
+#second-part .second-wrapper .mini-description{
+    font-size: 14px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    line-height: 21px;
+    display: block;
+    margin-top: 27px;
+    color: #BCBCBC;
+}
+#second-part .second-wrapper .cost{
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    line-height: 21px;
+    display: block;
+    margin-top: 31px;
+    color: #000;
+}
+#second-part .second-wrapper .doller{
+    font-size: 16px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    line-height: 21px;
+    display: block;
+    margin-top: 30px;
+    color: #FEBA12;
+}
+#second-part .second-wrapper .amount{
+    font-size: 60px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    line-height: 21px;
+    margin-top: 30px;
+    color: #FEBA12;
+}
+
+#second-part .second-wrapper .minibus{
+    border: 2px solid #747474;
+    width: 411px;
+    height: 485px;
+    margin-top: 381px;
+    display: block;
+    border-radius: 10px;
+    padding: 44px 75px;
+}
+#second-part .second-wrapper .minibus img{
+    padding-top: 6px;
+    padding-left: 80px;
+}
+#second-part .second-wrapper p{
+    text-align: center;
+}
+#second-part .second-wrapper .cab{
+    font-size: 30px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    line-height: 21px;
+    margin-top: 31px;
+}
+#second-part .second-wrapper .passengers{
+    font-size: 14px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    line-height: 21px;
+    display: block;
+    margin-top: 10px;
+    color: #BCBCBC;
+}
+#second-part .second-wrapper .mini-description{
+    font-size: 14px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    line-height: 21px;
+    display: block;
+    margin-top: 27px;
+    color: #BCBCBC;
+}
+#second-part .second-wrapper .cost{
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    line-height: 21px;
+    display: block;
+    margin-top: 31px;
+    color: #000;
+}
+#second-part .second-wrapper .doller{
+    font-size: 16px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    line-height: 21px;
+    display: block;
+    margin-top: 30px;
+    color: #FEBA12;
+}
+#second-part .second-wrapper .amount{
+    font-size: 60px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    line-height: 21px;
+    margin-top: 30px;
+    color: #FEBA12;
+}
+
+#second-part .second-wrapper .executive{
+    border: 2px solid #747474;
+    width: 411px;
+    height: 485px;
+    margin-top: 381px;
+    display: block;
+    border-radius: 10px;
+    padding: 44px 75px;
+}
+#second-part .second-wrapper .executive img{
+    padding-top: 6px;
+    padding-left: 80px;
+}
+#second-part .second-wrapper p{
+    text-align: center;
+}
+#second-part .second-wrapper .cab{
+    font-size: 30px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    line-height: 21px;
+    margin-top: 31px;
+}
+#second-part .second-wrapper .passengers{
+    font-size: 14px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    line-height: 21px;
+    display: block;
+    margin-top: 10px;
+    color: #BCBCBC;
+}
+#second-part .second-wrapper .mini-description{
+    font-size: 14px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    line-height: 21px;
+    display: block;
+    margin-top: 27px;
+    color: #BCBCBC;
+}
+#second-part .second-wrapper .cost{
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    line-height: 21px;
+    display: block;
+    margin-top: 31px;
+    color: #000;
+}
+#second-part .second-wrapper .doller{
+    font-size: 16px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    line-height: 21px;
+    display: block;
+    margin-top: 30px;
+    color: #FEBA12;
+}
+#second-part .second-wrapper .amount{
+    font-size: 60px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    line-height: 21px;
+    margin-top: 30px;
+    color: #FEBA12;
+}
+/* <!-- 2ND PART DESIGN END --> */
+
+
+
+/* <!-- 3ND PART DESIGN START --> */
+#third-part{
+    background: url(../images/third-black.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 43px 80px;
+    margin-top: 101px;
+}
+#third-part .third-wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+#third-part .third-wrapper .happy-customer{
+    border: 1px solid #C7C7C7;
+}
+#third-part .happy-customer{
+    padding: 91px 125px;
+    text-align: center;
+}
+#third-part .happy-customer h2{
+    font-family: "Poppins", sans-serif;
+    font-size: 70px;
+    font-weight: 700;
+    line-height: 70px;
+    color: #fff;
+}
+#third-part .happy-customer p{
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 16px;
+    color: #fff;
+    display: block;
+}
+
+#third-part .third-wrapper .years-experience{
+    border: 1px solid #C7C7C7;
+}
+#third-part .years-experience{
+    padding: 91px 132px;
+    text-align: center;
+}
+#third-part .years-experience h2{
+    font-family: "Poppins", sans-serif;
+    font-size: 70px;
+    font-weight: 700;
+    line-height: 70px;
+    color: #fff;
+}
+#third-part .years-experience p{
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 16px;
+    color: #fff;
+    display: block;
+}
+
+#third-part .third-wrapper .cab-drivers{
+    border: 1px solid #C7C7C7;
+}
+#third-part .cab-drivers{
+    padding: 91px 154px;
+    text-align: center;
+}
+#third-part .cab-drivers h2{
+    font-family: "Poppins", sans-serif;
+    font-size: 70px;
+    font-weight: 700;
+    line-height: 70px;
+    color: #fff;
+}
+#third-part .cab-drivers p{
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 16px;
+    color: #fff;
+    display: block;
+}
+/* <!-- 3ND PART DESIGN END --> */
+
+
+/* <!-- 4th PART DESIGN END --> */
+#fourth-part{
+    background: url(../images/fourth-part_\(yellow\).png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 0 80px;
+}
+#fourth-part .fourth-wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+#fourth-part .fourth-wrapper h2{
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 60px;
+    line-height: 60px;
+    padding-top: 92px;
+}
+#fourth-part .fourth-wrapper p{
+    font-family: "Roboto", sans-serif;    
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    padding-top: 33px;
+    width: 469px;
+}
+#fourth-part .fourth-wrapper .play-stors{
+    display: flex;
+    padding-top: 52px;
+    padding-bottom: 91px;
+    gap: 24px;
+}
+#fourth-part  .mobile-ui{
+    margin-bottom: 0;
+    padding-top: 35px;
+}
+/* <!-- 4th PART DESIGN END --> */
+
+
+/* <!-- 5th PART DESIGN START --> */
+#fifth .fifth-wrapper h2{
+    font-family: "Poppins", sans-serif;
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 60px;
+    color: #333333;
+    padding-top: 73px;
+    text-align: center;
+}
+#fifth .fifth-wrapper .article-images{
+    display: flex;
+    justify-content: space-between;
+}
+#fifth .article-images .taxi-car-label p{
+    font-family: "Roboto", sans-serif;
+    padding-top: 10px;
+    font-size: 12px;
+    display: block;
+    line-height: 12px;
+}
+#fifth .article-images .taxi-car-label h3{
+    font-family: "Poppins", sans-serif;
+    padding-top: 30px;
+    font-size: 12px;
+    font-weight: 700;
+}
+#fifth .article-images{
+    padding-bottom: 70px;
+}
+#fifth .fifth-wrapper{
+    padding-top: 70px;
+}
+#fifth .fifth-wrapper .read-more{
+    color: #000;
+    padding: 9px 36px;
+    background-color: #FEBA12;
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    width: 250px;
+    margin: 0 auto;
+}
+/* <!-- 5th PART DESIGN END --> */
+
+
+/* <!--FOOTER PART DESIGN START --> */
+#footer{
+    background: url(../images/footer-black-part.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: 70px;
+}
+#footer .footer-image{
+    background: url(../images/footer-yellow-img.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 320px;
+    margin-left: 43px;
+    margin-top: 73px;
+    margin-right: 43px;
+}
+#footer .footer-yellow-services{
+    display: flex;
+}
+#footer .footer-wrapper .footer-yellow-part{
+    padding: 167px 68px;
+    text-align: center;
+}
+#footer .footer-wrapper .footer-yellow-part .online{
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    color: #fff;
+}
+#footer .footer-wrapper .footer-yellow-part .save{
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 50px;
+    color: #fff;
+    display: block;
+}
+#footer .footer-wrapper .footer-yellow-part .ten-perc{
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 100px;
+    color: #000000;
+    display: block;
+    margin: -31px;
+}
+#footer .footer-wrapper .footer-yellow-part .ride{
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    color: #000000;
+    display: block;
+}
+
+#footer .footer-services{
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    padding-top: 160px;
+}
+#footer .footer-services .standard-cab img{
+    padding-top: 6px;
+    padding-left: 80px;
+}
+#footer .footer-services .standard-cab{
+    border: 2px solid #747474;
+    width: 411px;
+    display: block;
+    border-radius: 10px;
+    padding: 44px 75px;
+}
+#footer .footer-services .standard-cab .cab{
+    text-align: center;
+    color: #fff;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 21px;
+}
+#footer .footer-services .standard-cab .passengers{
+    font-size: 14px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    display: block;
+    margin-top: 10px;
+    color: #BCBCBC;
+    text-align: center;
+}
+#footer .footer-services .standard-cab .mini-description{
+    font-size: 14px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    line-height: 21px;
+    display: block;
+    margin-top: 27px;
+    color: #BCBCBC;
+    text-align: center;
+}
+#footer .footer-services .standard-cab .cost{
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    line-height: 21px;
+    display: block;
+    margin-top: 31px;
+    color: #ffffff;
+    text-align: center;
+}
+#footer .footer-services .standard-cab .doller{
+    font-size: 16px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    line-height: 21px;
+    display: block;
+    margin-top: 30px;
+    color: #FEBA12;
+    text-align: center;
+}
+#footer .footer-services .standard-cab .amount{
+    font-size: 60px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    line-height: 21px;
+    margin-top: 30px;
+    color: #FEBA12;
+}
+
+#footer .footer-services .minibus img{
+    padding-top: 6px;
+    padding-left: 80px;
+}
+#footer .footer-services .minibus{
+    border: 2px solid #747474;
+    width: 411px;
+    display: block;
+    border-radius: 10px;
+    padding: 44px 75px;
+    margin-left: 22px;
+    margin-right: 22px;
+}
+#footer .footer-services .minibus .cab{
+    text-align: center;
+    color: #fff;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 21px;
+}
+#footer .footer-services .minibus .passengers{
+    font-size: 14px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    line-height: 21px;
+    display: block;
+    margin-top: 10px;
+    color: #BCBCBC;
+    text-align: center;
+}
+#footer .footer-services .minibus .mini-description{
+    font-size: 14px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    line-height: 21px;
+    display: block;
+    margin-top: 27px;
+    color: #BCBCBC;
+    text-align: center;
+}
+#footer .footer-services .minibus .cost{
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    line-height: 21px;
+    display: block;
+    margin-top: 31px;
+    color: #ffffff;
+    text-align: center;
+}
+#footer .footer-services .minibus .doller{
+    font-size: 16px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    line-height: 21px;
+    display: block;
+    margin-top: 30px;
+    color: #FEBA12;
+    text-align: center;
+}
+#footer .footer-services .minibus .amount{
+    font-size: 60px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    line-height: 21px;
+    margin-top: 30px;
+    color: #FEBA12;
+}
+
+#footer .footer-services .executive img{
+    padding-top: 6px;
+    padding-left: 80px;
+}
+#footer .footer-services .executive{
+    border: 2px solid #747474;
+    width: 411px;
+    display: block;
+    border-radius: 10px;
+    padding: 44px 75px;
+}
+#footer .footer-services .executive .cab{
+    text-align: center;
+    color: #fff;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 21px;
+}
+#footer .footer-services .executive .passengers{
+    font-size: 14px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    line-height: 21px;
+    display: block;
+    margin-top: 10px;
+    color: #BCBCBC;
+    text-align: center;
+}
+#footer .footer-services .executive .mini-description{
+    font-size: 14px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    line-height: 21px;
+    display: block;
+    margin-top: 27px;
+    color: #BCBCBC;
+    text-align: center;
+}
+#footer .footer-services .executive .cost{
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    line-height: 21px;
+    display: block;
+    margin-top: 31px;
+    color: #ffffff;
+    text-align: center;
+}
+#footer .footer-services .executive .doller{
+    font-size: 16px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    line-height: 21px;
+    display: block;
+    margin-top: 30px;
+    color: #FEBA12;
+    text-align: center;
+}
+#footer .footer-services .executive .amount{
+    font-size: 60px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    line-height: 21px;
+    margin-top: 30px;
+    color: #FEBA12;
+}
+
+#footer .footer-carlogo{
+    background: url(../images/Directions\ car.png);
+    background-color: #0000;
+    width: 100px;
+    height: 100px;
+    font-size: 45px;
+    border-radius: 50%;
+    border-color: #FEBA12;
+    border-width: 10px;
+    padding: 1px;
+    margin: 0 auto;
+    margin-top: 62px;
+}
+#footer .logo-icons .footer-middle-logo{
+    background: url(../images/avada-taxi-logo@2x\ 1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 48px;
+    margin: 0 auto;
+}
+/* <!--FOOTER PART DESIGN END --> */
